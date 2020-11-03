@@ -7,6 +7,7 @@
     "test": "nodemon --exec node index.js",
     "deploy": "gh-pages -d public"
   },
+  "homepage": "https://sound.1000ship.me",
   "author": "1000ship",
   "license": "ISC",
   "dependencies": {
