@@ -11,6 +11,7 @@ function setup() {
   sound.amp(0.2);
 
   window.addEventListener("click", togglePlay);
+  window.addEventListener("touchend", togglePlay);
 
   canvas = document.createElement("canvas");
   canvas.setAttribute("width", stageWidth);
